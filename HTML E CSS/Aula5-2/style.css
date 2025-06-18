@@ -1,0 +1,55 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 15px;
+    background-color: rgb(46, 52, 52);
+    padding: 10px;
+    height: auto;
+    
+
+}
+
+.grid-container>div {
+    background-color: rgb(226, 206, 123);
+    place-content: center;
+    text-align: center;
+    font-size: 70px;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 50px;
+    border: 9px  solid  rgb(166, 174, 237);
+    transition: 0.5s ;
+    transform: scale(1);
+    animation: backwards;
+    
+}
+
+.grid-container>:hover {
+    background-color: blue;
+    transition: 0.5s ;
+    transform: scale(0.95);
+    animation: backwards;
+    color: white;
+    
+}
+
+.item-1 {
+    grid-column: 1 / span 5;
+}
+
+.item-2 {
+    grid-row: 2  / span 4;
+    grid-column: 1 / span 2;
+}
+
+.item-3 {
+    grid-row: 2  / span 4;
+    grid-column: 3 / span 2;
+}
+
+.item-4 {
+    grid-row: 2  / span 4;
+    grid-column: 5 / span 1;
+}
+
+

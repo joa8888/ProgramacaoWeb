@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 30px;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+main {
+    gap: 20px;
+}
+
+.item1 { 
+    transition: 0.5s;
+    background-color: darkorange;
+    grid-column: 1 / span 2;
+    padding: 25px;
+
+}
+
+.item1:hover {
+    color: aliceblue;
+    background-color: rgb(84, 46, 12);
+    transform: scale(1.05);
+    transition: 1s;
+    
+}
+
+.item2 { 
+    transition: 0.5s;
+    background-color: cornflowerblue;
+    padding: 25px;
+    grid-column: 3 / span 2;
+ 
+}
+
+.item2:hover {
+    color: aliceblue;
+    background-color: rgb(12, 58, 84);
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.item3 {
+    transition: 0.5s;
+    background-color: rgb(189, 21, 184);
+    height: 700px;
+    align-content: center;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.item3:hover {
+    color: aliceblue;
+    background-color: rgb(62, 1, 72);
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+.item4 {
+    transition: 0.5s;
+    background-color: chartreuse;
+    align-content: center;
+    grid-column: 2 / span 2;
+    grid-row: 2;
+}
+
+.item4:hover {
+    color: aliceblue;
+    background-color: rgb(7, 62, 4);
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+.item5 {
+    transition: 0.5s;
+    background-color: crimson;
+    align-content: center;
+    grid-column: 4;
+    grid-row: 2;    
+}
+
+.item5:hover {
+    color: aliceblue;
+    background-color: rgb(94, 9, 9);
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+
+footer {
+    transition: 0.5s;
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(180, 172, 172);
+    transform: scale(1.03);
+    transition: 1s;
+}

@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+header , footer {
+    font-size: 18px;
+    padding: 25px;
+    background-color: black;
+}
+
+.flex_c {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px;
+}
+
+
+.bloco {
+    display: flex;
+    width: 930px;
+    align-items: center;
+    background-color: #ddd;
+    justify-content: center;
+    height: 370px;
+}

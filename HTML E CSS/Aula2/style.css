@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* #tprin {
+   
+}  */
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#grancx {
+    background-color: aqua;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+#header {
+    background-color: slategrey;
+    height: 60px;
+}
+
+/*md (Meia Divisão*/
+.md {
+    margin-bottom: 60px;
+}
+
+aside {
+    margin-left: 51%;
+}
+
+.stitle {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    height: 60px;
+}
+
+
+
+/*---------------------------------------PÁGINA LOGIN------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#register {
+    background-color: dimgrey;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px;
+    border-radius: 50px;
+    color: white;
+}
