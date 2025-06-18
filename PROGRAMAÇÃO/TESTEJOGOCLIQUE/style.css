@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contador {
+    display: flex;
+    height: 50%;
+    align-items: center ;
+    justify-content: center;
+}
+
+.btn {
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 9px;
+    background-color: green;
+    width: 220px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+h2,
+span {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+}

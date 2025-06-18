@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+}
+
+h1 {
+    color: white;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(193, 197, 190);
+    transform: scale(1);
+    transition: 0.5s;
+   
+}
+
+.btn:hover {
+    transform: scale(1.08);
+    transition: 1s;
+     color: yellow;
+}
+
+img {
+    width: 250px; 
+    height: 500px;
+    backdrop-filter: blur(2px); /* Ajuste o valor para controlar a intensidade do desfoque */
+
+}

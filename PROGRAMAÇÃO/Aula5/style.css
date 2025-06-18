@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 70px
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+input {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+
+p {
+    font-size: 50px;
+}
+
+.btn {
+    padding: 20px;
+}
+

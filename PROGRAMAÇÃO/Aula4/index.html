@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lâmpada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Lâmpada</h1>
+
+    <img id="lampOff" src="imagens/lampOff.jpeg" alt="lampada desligada">
+
+    <div>
+    <button onclick="Ligada(); playAudio();" class="btn">Ligar</button>
+    <button onclick="Desligada(); playAudio();" class="btn">Desligar</button>
+    <audio src="audio/interruptor.mp3" id="audio"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

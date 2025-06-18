@@ -1,0 +1,36 @@
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+span {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.btn {
+    font-size: 25px;
+    height: 60px;
+    width: 60px;
+}
+
